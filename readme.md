@@ -36,7 +36,11 @@ node server.js
 ```
 
 ## 3) Dockerize the Node.js app
-Check the dockerfile in this repo and run following command to build a Docker image:
+1. After creating a Dockerfile, need to make sure to use Minikube Docker daemon by executing following command:
+```
+eval $(minikube docker-env)
+```
+2. Check the dockerfile in this repo and run following command to build a Docker image:
 ```
 docker build -t test-node:v1 .
 ```
