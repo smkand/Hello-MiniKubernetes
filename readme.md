@@ -59,7 +59,7 @@ kubectl get deployments
 ```
 kubectl get pods
 ```
-Also, make sure to check Kubernetes dashboard to see more details of the deployed app under Workloads/Depolyments. 
+Check Kubernetes dashboard to see more details of the deployed app under Workloads/Depolyments. 
 
 
 
